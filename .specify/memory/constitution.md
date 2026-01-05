@@ -1,55 +1,85 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+# Sync Impact Report
+- Version change: 0.1.0 → 1.0.0
+- List of modified principles:
+  - [PRINCIPLE_1_NAME] → Core Development Principle: AI-Native Development
+  - [PRINCIPLE_2_NAME] → Spec-Driven Development: No manual code writing
+  - [PRINCIPLE_3_NAME] → Agentic Dev Stack: Claude Code as Implementation Agent
+  - [PRINCIPLE_4_NAME] → Reusable Intelligence: Agent Skills & Subagents
+  - [PRINCIPLE_5_NAME] → Architectural Integrity: Global enforcement across Phase I–V
+- Added sections:
+  - Purpose of the Constitution
+  - Roles & Responsibilities
+  - Spec-Driven Development Workflow
+  - Agentic Dev Stack Rules
+  - Reusable Intelligence Policy
+  - Architectural Integrity Rules
+  - Evaluation & Judging Criteria
+  - Forbidden Actions
+  - Evolution & Phase Governance
+  - Success Definition
+- Removed sections: [SECTION_2], [SECTION_3]
+- Templates requiring updates:
+  - plan-template.md (✅ updated)
+  - spec-template.md (✅ updated)
+  - tasks-template.md (✅ updated)
+- Follow-up TODOs: Ensure all Phase I–V implementations strictly adhere to these rules.
+-->
 
-## Core Principles
+# The Evolution of Todo Constitution
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+Mastering Spec-Driven Development & Cloud-Native AI
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+## 1. Purpose of the Constitution
+This constitution serves as the foundational governance document for "The Evolution of Todo" project. It establishes the mandatory rules of engagement for human architects and AI implementers to ensure architectural integrity, technical excellence, and pure spec-driven evolution from a simple CLI to a distributed cloud-native system.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+## 2. Roles & Responsibilities
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Human (Product Architect)
+The human is responsible for prompting, reviewing outputs, requesting refinements, and making high-level architectural decisions. Humans are strictly forbidden from writing code.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### AI (Claude Code as Implementation Agent)
+Claude Code is the primary implementation agent responsible for all code generation, refactoring, and technical execution based on provided specifications.
 
-### [PRINCIPLE_6_NAME]
+## 3. Spec-Driven Development Workflow
+All development must follow this strict sequence:
+1. **Spec**: Define clear functional and technical requirements.
+2. **Plan**: Design the implementation strategy and architectural approach.
+3. **Tasks**: Break down the plan into actionable, atomic tasks.
+4. **Implementation**: Execute tasks via Claude Code.
+5. **Review**: Human validates output against the spec.
+6. **Refine**: Iterate on the spec/prompt until the output is correct.
 
+## 4. Agentic Dev Stack Rules
+The development environment is AI-native. Every tool, hook, and script must be designed to be consumed and executed by AI agents. Manual boilerplate is rejected.
 
-[PRINCIPLE__DESCRIPTION]
+## 5. Reusable Intelligence Policy
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Agent Skills
+Custom skills and MCP servers should be developed to encapsulate reusable intelligence and domain-specific capabilities.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Subagents
+Complex tasks should be delegated to specialized subagents (Explore, Plan, Research) to maintain focus and context efficiency.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## 6. Architectural Integrity Rules
+Architecture must evolve logically across phases (Phase I–V). Phase transition requires a constitution check to ensure the foundations (Spec-Driven, AI-Native) remain intact.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## 7. Evaluation & Judging Criteria
+Projects are evaluated on:
+- Quality and depth of specifications.
+- Prompt clarity and effective iteration history.
+- Architectural cleanliness and "AI-readability" of code.
+- Functional correctness and adherence to the master constitution.
 
-## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+## 8. Forbidden Actions
+- **NO MANUAL CODE WRITING**: Humans must never manually edit source files.
+- **NO BYPASSING SPECS**: No feature implementation without a corresponding specification.
+- **NO EXTERNAL BOILERPLATE**: AI must generate structured code rather than copy-pasting generic external snippets without context.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+## 9. Evolution & Phase Governance
+This constitution governs all phases of the hackathon. It remains the source of truth as the project scales from a monolith to a distributed system. Amendments require a major version bump.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+## 10. Success Definition
+Success is defined as a fully functional, cloud-native system where 100% of the codebase and its evolutionary history (specs, plans, tasks) was architected by humans but implemented autonomously by AI.
+
+**Version**: 1.0.0 | **Ratified**: 2026-01-02 | **Last Amended**: 2026-01-02

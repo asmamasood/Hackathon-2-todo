@@ -31,7 +31,10 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **AI-Native**: Implementation uses Claude Code; no manual human coding.
+- [ ] **Spec-Driven**: Changes trace back to `spec.md`; workflow follows Spec -> Plan -> Tasks.
+- [ ] **Architectural Integrity**: Approach aligns with the Evolution of Todo Master Constitution (Phase I-V).
+- [ ] **Forbidden Actions**: No manual code writing or unvetted external boilerplate.
 
 ## Project Structure
 

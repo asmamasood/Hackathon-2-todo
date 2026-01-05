@@ -1,9 +1,13 @@
 # Feature Specification: [FEATURE NAME]
 
-**Feature Branch**: `[###-feature-name]`  
-**Created**: [DATE]  
-**Status**: Draft  
+**Feature Branch**: `[###-feature-name]`
+**Created**: [DATE]
+**Status**: Draft
 **Input**: User description: "$ARGUMENTS"
+
+## Architectural Context
+- **Phase**: [e.g., Phase I: Monolith CLI]
+- **Constitution Alignment**: This spec adheres to the Master Constitution v1.0.0.
 
 ## User Scenarios & Testing *(mandatory)*
 
